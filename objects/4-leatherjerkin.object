@@ -1,0 +1,13 @@
+ONUM 4
+NAME heavy leather jerkin
+DESC This jerkin is made of thick solid leather, and padded!EOL!inside with a soft plush material.
+WEIGHT 4
+TYPE 1
+STRENGTH 1
+INTELLECT 0
+CHARISMA 0
+HP 10
+MANA 0
+DAMAGE None
+VALUE 15
+FLAGS None

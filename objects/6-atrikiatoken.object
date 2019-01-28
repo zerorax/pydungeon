@@ -1,0 +1,13 @@
+ONUM 6
+NAME an atrikia token
+DESC This token clearly holds value to those who crafted and traded it.
+WEIGHT 1
+TYPE 5
+STRENGTH 0
+INTELLECT 0
+CHARISMA 0
+HP 0
+MANA 0
+DAMAGE None
+VALUE 25
+FLAGS hidden

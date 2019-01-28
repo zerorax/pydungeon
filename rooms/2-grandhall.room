@@ -1,0 +1,9 @@
+RNUM 2
+NAME The grand hall
+EXITS None,5,None,0
+CONTENTS 2,6
+USABLE lever:lever:send_to_char(ch,"you pull the lever.")
+DESC
+The room is huge, with a high ceiling draped with chandelears.
+Everything about this place is fancy and high class.
+!ENDDESC!

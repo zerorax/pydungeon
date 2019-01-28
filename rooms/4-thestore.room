@@ -1,0 +1,8 @@
+RNUM 4
+NAME The General Store
+EXITS 0,None,None,None
+CONTENTS None
+DESC
+This room is filled with shelves of items, perhaps you should look in them if you
+are interested in seeing what the shop has to sell.
+!ENDDESC!

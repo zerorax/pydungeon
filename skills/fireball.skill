@@ -1,0 +1,30 @@
+NAME fireball
+TYPE spell
+COOLDOWN 8
+CLASS mage
+HELPTEXT Syntax: 'cast fireball <target name>'.
+NEEDSTARGET True
+CODE
+if !SELF!.fightingtarget != None and '!ARGS!' == "":
+	!SELF!.begincombat(!SELF!.fightingtarget)
+	dmg = !SELF!.getintellect() * 0.35
+	dmg = int(dmg)
+	send_to_char(!SELF!, 'You throw a fireball at %s which deals %d damage.' % (!SELF!.fightingtarget.name, dmg))
+	send_to_char(!SELF!.fightingtarget, '%s hits you with a fireball doing %d damage.' % (!SELF!.name, dmg))
+	!SELF!.do_damage(!SELF!.fightingtarget, dmg)
+elif '!ARGS!' == "":
+	send_to_char(!SELF!, 'Aimed at who?')
+else:
+	if get_char_by_name(!SELF!.inroom, '!ARGS!') != None:
+		target = get_char_by_name(!SELF!.inroom, '!ARGS!')
+		if target != !SELF!:
+			!SELF!.begincombat(target)
+			dmg = !SELF!.getintellect() * ( 0.35)
+			dmg = int(dmg)
+			send_to_char(!SELF!, 'You throw a fireball at %s which deals %d damage.' % (target.name, dmg))
+			send_to_char(target, '%s hits you with a fireball doing %d damage.' % (!SELF!.name, dmg))
+			!SELF!.do_damage(target, dmg)
+		else:
+			send_to_char(!SELF!, 'You cannot attack yourself.')
+	else:
+		send_to_char(!SELF!, 'There is no target here by that name.')

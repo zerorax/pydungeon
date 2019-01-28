@@ -1,0 +1,13 @@
+ONUM 0
+NAME Boiled leather pants
+DESC These pants consist of thick boiled leather, and should provide some!EOL!protection from the tests of battle.
+WEIGHT 2
+TYPE 4
+STRENGTH 2
+INTELLECT 0
+CHARISMA 0
+HP 0
+MANA 0
+DAMAGE None
+VALUE 15
+FLAGS None

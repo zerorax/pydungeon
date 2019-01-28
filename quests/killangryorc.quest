@@ -1,0 +1,11 @@
+NAME Kill the angry orc
+QUESTGIVER 0
+QUESTINFO You must kill and angry orc to the north of the dumb ogre.
+QUESTMESSAGE You must kill an angry orc to the north!EOL!This quest could be very dangerous if you are not!EOL!prepared but I have faith in you.
+QUESTTARGET NPC:1
+KEYWORDS kill orc quest angry
+GOALCOUNT 1
+REWARDMESSAGE Congratulation, you have completed the test quest.
+EXPERIENCE 100
+SILVER 10
+HONOR 2

@@ -1,0 +1,9 @@
+RNUM 3
+NAME Stupid test room
+EXITS None,None,1,None
+CONTENTS None
+DESC
+This room is created as a test room.
+I don't feel like coming up with descriptions for it so
+go fuck yourself.
+!ENDDESC!

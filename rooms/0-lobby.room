@@ -1,0 +1,10 @@
+RNUM 0
+NAME The lobby
+EXITS 1,2,4,None
+CONTENTS None
+DETAIL painting paintings:These paintings are of a very high quality and well framed to suit their abstract nature.
+DETAIL lighting lights light:The lighting is brilliant, the fixtures are beautiful and the room is fully illuminated
+DESC
+You are in a stylish lobby that resembles a fancy hotel. The walls
+are lined with paintings, and the lighting is spectacular."
+!ENDDESC!

@@ -1,0 +1,17 @@
+NAME a dumb ogre
+NNUM 0
+CLASS warrior
+INTRODUCTION A dumb ogre says 'Hi, I'm scared to go north because of the angry orc there.'
+STRENGTH 5
+INTELLECT 2
+CHARISMA 2
+HP 3
+MANA 30
+EXPERIENCE 100
+LEVEL 1
+ROOMNUM 1
+SPAWN True
+RESPAWN False
+RESPAWNTIME 1
+ITEMS None
+EQUIPMENT 1,None,None,None,None

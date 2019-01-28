@@ -1,0 +1,13 @@
+ONUM 1
+NAME A wooden sword
+DESC This sword is a well crafted practice sword with slight wear.
+WEIGHT 4.5
+TYPE 0
+STRENGTH 0
+INTELLECT 0
+CHARISMA 0
+HP 0
+MANA 0
+DAMAGE 3-5
+VALUE 3
+FLAGS None

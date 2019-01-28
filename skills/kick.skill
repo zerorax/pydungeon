@@ -1,0 +1,29 @@
+NAME kick
+COOLDOWN 5
+CLASS warrior
+TYPE skill
+HELPTEXT Syntax: 'kick <enemy name>' to kick an enemy.
+NEEDSTARGET True
+CODE
+if !SELF!.fightingtarget != None and '!ARGS!' == "":
+	dmg = !SELF!.getstrength()* 0.35
+	dmg = int(dmg)
+	send_to_char( !SELF!, 'You kick %s for %d damage.' % (!SELF!.fightingtarget.name, dmg))
+	send_to_char( !SELF!.fightingtarget, '%s kicks you for %d damage' % (!SELF!.name, dmg))
+	!SELF!.do_damage(get_char_by_name(!SELF!.inroom,'!ARGS!'))
+elif '!ARGS!' == "":
+	send_to_char(!SELF!, 'Kick who?')
+else:
+	if get_char_by_name(!SELF!.inroom, '!ARGS!') != None:
+		target = get_char_by_name(!SELF!.inroom, '!ARGS!')
+		if target != !SELF!:
+			!SELF!.begincombat(target)
+			dmg = !SELF!.getstrength() * 0.35
+			dmg = int(dmg)
+			send_to_char( !SELF!, 'You kick %s for %d damage.' % (!SELF!.fightingtarget.name, dmg))
+			send_to_char( !SELF!.fightingtarget, '%s kicks you for %d damage' % (!SELF!.name, dmg))
+			!SELF!.do_damage(target, dmg)
+		else:
+			send_to_char(!SELF!, 'You cannot attack yourself.')
+	else:
+		send_to_char( !SELF!, "There is no target here by that name")

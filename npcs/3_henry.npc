@@ -1,0 +1,17 @@
+NAME Henry Watson
+NNUM 3
+CLASS warrior
+INTRODUCTION Greetings friend,!EOL!I am one of the shop keepers here, if I may assist you in any!EOL!way please let me know.
+STRENGTH 10
+INTELLECT 5
+CHARISMA 3
+HP 75
+MANA 30
+EXPERIENCE 150
+LEVEL 6
+ROOMNUM 4
+SPAWN False
+RESPAWN False
+RESPAWNTIME 5
+ITEMS None
+EQUIPMENT None,None,None,None,None

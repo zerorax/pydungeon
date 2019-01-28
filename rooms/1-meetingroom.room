@@ -1,0 +1,8 @@
+RNUM 1
+NAME The meeting room
+EXITS 3,None,0,None
+CONTENTS None
+DESC
+This room contains a long table lines with seats.
+Those seats look really comfy.
+!ENDDESC!

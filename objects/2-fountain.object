@@ -1,0 +1,12 @@
+ONUM 2
+NAME A flowing fountain
+DESC This fountain is simple but beatuiful, and the flowing water seems to relax you.
+WEIGHT 80
+TYPE 6
+STRENGTH 0
+INTELLECT 0
+CHARISMA 0
+HP 0
+MANA 0
+DAMAGE None
+FLAGS nopickup

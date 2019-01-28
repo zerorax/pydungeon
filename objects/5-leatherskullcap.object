@@ -1,0 +1,13 @@
+ONUM 5
+NAME leather skullcap
+DESC This leather skullcap is neatly woven and should provide some protecton!EOL!against attacks.
+WEIGHT 1
+TYPE 2
+STRENGTH 1
+INTELLECT 0
+CHARISMA 0
+HP 5
+MANA 0
+DAMAGE None
+VALUE 15
+FLAGS None

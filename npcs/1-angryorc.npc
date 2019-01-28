@@ -1,0 +1,18 @@
+NAME an angry orc
+NNUM 1
+CLASS warrior
+INTRODUCTION This is a lame test introduction.!EOL!Eventually this text will contain the characters introduction to the player
+STRENGTH 7
+INTELLECT 2
+CHARISMA 2
+HP 10
+MANA 30
+EXPERIENCE 125
+LEVEL 1
+FLAGS aggro
+ROOMNUM 3
+SPAWN True
+RESPAWN False
+RESPAWNTIME 5
+ITEMS None
+EQUIPMENT None,None,None,None,0

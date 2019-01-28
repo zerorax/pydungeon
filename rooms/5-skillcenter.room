@@ -1,0 +1,8 @@
+RNUM 5
+NAME The skill center
+EXITS None,None,None,2
+CONTENTS None
+DESC
+You are in the skill center. use the learn command to learn a skill
+or spell.
+!ENDDESC!

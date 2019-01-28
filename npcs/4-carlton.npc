@@ -1,0 +1,19 @@
+NAME Carlton Merigan
+NNUM 4
+CLASS warrior
+INTRODUCTION Greetings friend,!EOL!I am the master trainer here at the skill center.
+STRENGTH 16
+INTELLECT 10
+CHARISMA 6
+HP 100
+MANA 30
+EXPERIENCE 150
+SKILLS kick,fireball
+FLAGS skillteacher
+LEVEL 6
+ROOMNUM 5
+SPAWN True
+RESPAWN False
+RESPAWNTIME 5
+ITEMS None
+EQUIPMENT None,None,None,None,None

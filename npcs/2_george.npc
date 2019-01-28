@@ -1,0 +1,18 @@
+NAME George Watson
+NNUM 2
+CLASS warrior
+INTRODUCTION This is a lame test introduction.!EOL!Eventually this text will contain the characters introduction to the player
+STRENGTH 20
+INTELLECT 7
+CHARISMA 5
+HP 100
+MANA 30
+FACTOIDS 1,3
+EXPERIENCE 200
+LEVEL 10
+ROOMNUM 4
+SPAWN False
+RESPAWN False
+RESPAWNTIME 5
+ITEMS None
+EQUIPMENT None,None,None,None,None
